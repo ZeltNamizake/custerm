@@ -1,0 +1,72 @@
+format = """$directory $git_branch| $time| ${custom.git}${custom.nodejs}${custom.js}${custom.golang}${custom.shell}${custom.ruby}${custom.python}${custom.c}${custom.cpp}${custom.csharp}
+${custom.user}$character"""
+
+[directory]
+home_symbol = "\ueb06"
+style = "blue bold"
+format = "[$path]($style)"
+truncation_length = 2
+truncation_symbol = "../"
+
+[character]
+success_symbol = "[❯](green bold)"
+error_symbol = "[❯](red bold)"
+
+[time]
+disabled = false
+utc_time_offset = "local"
+style = "white bold"
+time_format = "%R"
+
+[git_branch]
+format = '| [ $branch ](black bold)'
+
+[custom.git]
+format = "[ ](202 bold)"
+detect_folders = [".git", "git"]
+
+[custom.nodejs]
+format = '[󰎙 ](green bold)'
+detect_folders = ['node_modules', "nodejs", "Nodejs"]
+
+[custom.ruby]
+format = "[ ](red bold)"
+detect_extensions = ['rb']
+detect_folders = ["ruby", "Ruby"]
+
+[custom.python]
+format = "[󰌠 ](21 bold)"
+detect_extensions = ['py']
+detect_folders = ["python", "Python"]
+
+[custom.js]
+format = "[ ](yellow bold)"
+detect_extensions = ["js"]
+detect_folders = ["javascript", "Javascript"]
+
+[custom.shell]
+format = "[ ](green bold)"
+detect_extensions = ["sh"]
+detect_folders = ["shell", "Shell"]
+
+[custom.c]
+format = "[󰙱 ](33 bold)"
+detect_extensions = ["c"]
+
+[custom.cpp]
+format = "[󰙲 ](33 bold)"
+detect_extensions = ['cpp']
+
+[custom.csharp]
+format = "[󰌛 ](199 bold)"
+detect_extensions = ["cs"]
+
+[custom.golang]
+format = "[󰟓 ](cyan bold)"
+detect_extensions = ["go"]
+detect_folders = ["golang", "Golang"]
+
+[custom.user]
+when = true
+command = "whoami"
+format = "[$output](black bold)"
