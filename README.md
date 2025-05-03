@@ -2,7 +2,7 @@
 Customize Termux with Neofetch and Starship
 <div align="center">
   <p>
-    <img src="https://i.ibb.co/xqmgg4QM/Screenshot-20250503-003552-Termux.jpg" alt="terminal-termux" border="0" width=300/>
+    <img src="https://i.ibb.co/xqmgg4QM/Screenshot-20250503-003552-Termux.jpg" alt="terminal-termux" border="0"/>
   </p>
 </div>
 
@@ -75,10 +75,10 @@ error_symbol = "[❯](red bold)"
 ### My adjusted results:
 <div align="center">
   <p>
-    <img src="https://i.ibb.co.com/m5GYpXCy/Screenshot-20250503-002239-Termux.jpg" alt="custerm-res1" border="0" width=300/>
+    <img src="https://i.ibb.co.com/m5GYpXCy/Screenshot-20250503-002239-Termux.jpg" alt="custerm-res1" border="0"/>
   </p>
   <p>
-  <img src="https://i.ibb.co.com/TqbjNHf5/Screenshot-20250503-003718-Termux.jpg" alt="custerm-res2" border="0" width=300/>
+  <img src="https://i.ibb.co.com/TqbjNHf5/Screenshot-20250503-003718-Termux.jpg" alt="custerm-res2" border="0"/>
   </p>
 </div>
 
