@@ -28,7 +28,7 @@ mkdir HackFont && cd HackFont && wget https://github.com/ryanoasis/nerd-fonts/re
 ### Configure Shell
  * if you want to set the terminal using __zsh__
  ```bash
-cd $USR/bin && chsh -s zsh
+cd $PREFIX/bin && chsh -s zsh
  ```
  * __Configure bashrc or zshrc__
    <br>create the file bashrc or zshrc (if not yet available) 
